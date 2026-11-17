@@ -1,0 +1,12 @@
+{% extends "govuk/template.njk" %}
+
+{% block pageTitle %}{{ pageTitle }}{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="/govuk-frontend.css">
+{% endblock %}
+
+{% block content %}
+    <h1 class="govuk-heading-xl">{{ pageTitle }}</h1>
+    <p class="govuk-body">The admin application is running.</p>
+{% endblock %}
