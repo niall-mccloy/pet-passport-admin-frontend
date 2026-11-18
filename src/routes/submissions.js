@@ -3,7 +3,7 @@ import {
   formSubmissionsController,
   submissionController,
   submissionsController
-} from './controller.js'
+} from '../controllers/submission-controller.js'
 
 /**
  * @satisfies {ServerRegisterPluginObject<void>}

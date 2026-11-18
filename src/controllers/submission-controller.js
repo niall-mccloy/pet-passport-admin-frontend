@@ -6,7 +6,7 @@ import {
   listFormSubmissions,
   listSubmissions,
   SUBMISSIONS_PAGE_SIZE
-} from '../../submission-store.js'
+} from '../services/submission-store.js'
 
 function formatAnswer(answer) {
   const value = answer.value

@@ -6,7 +6,7 @@ import path from 'node:path'
 import { createRequire } from 'node:module'
 import { fileURLToPath } from 'node:url'
 
-import { submissions } from './views/submissions/index.js'
+import { submissions } from './routes/submissions.js'
 
 export async function createServer() {
     const server = Hapi.server({
